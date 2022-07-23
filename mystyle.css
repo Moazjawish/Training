@@ -1,48 +1,114 @@
 * {
     box-sizing: border-box;
+    margin-top: 20px;
+}
+
+body {
+    /* background-color: blanchedalmond; */
+    background-image: url("IMG_20220701_171801_500.png");
+    background-repeat: no-repeat, repeat;
+    font-family: monospace;
+    margin-right: 400px;
+    background-position: center;
+
+}
+
+header {
+    margin-top: -6px;
+    padding: 5px;
+    text-align: left;
+    border: 5px solid #4c51af;
+    margin-right: 586px;
+    background-color: aqua;
+    font-size: 30px;
+    font-family: Georgia;
+    position: sticky;
+    border-radius: 12px;
+    border-bottom-color: #91a617;
+}
+
+nav {
+    background-color: rgb(19, 237, 66);
+    /* margin-top: 20px; */
+    font-size: 15px;
+    font-family: cursive;
+    border-style: dotted;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-width: 6px;
+    position: sticky;
+    padding: 5px;
+    border-color: red green blue yellow;
+    /* border: 5px solid #f4faf5; */
+}
+
+article {
+    background-color: rgb(223, 53, 138);
+    font-size: 18px;
+    border-style: inset dashed dotted double;
+    border-width: 6px;
+    font-family: Arial;
+    position: sticky;
+    padding: 5px;
+    border-radius: 20ch;
+    /* border: 5px solid #bc6397; */
+
+}
+
+footer {
+    position: sticky;
+    padding-bottom: 2000px;
+    background-color: rgb(170, 255, 0);
+    font-size: 50px;
+    font-family: Arial;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 5px;
+    border: 5px;
+
+    margin-top: -400px;
+}
+
+.sticky {
+
+    position: sticky;
+    text-align: center;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.par {
+    background-color: antiquewhite;
+    border-style: dotted;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: "Sofia", sans-serif;
+    overflow: visible;
+
+}
+
+#scroll {
+    text-shadow: 2px 2px;
+    text-decoration: underline;
+}
+a:link {
+    color: red;
   }
-          body {
-              background-color: blanchedalmond;
-              font-family:  monospace;
-          }
-          header
-          {
-              background-color: aqua;
-              font-size: 30px;
-              font-family:Georgia;
-              position: sticky;
-          }
-          nav
-          {
-              background-color: rgb(17, 0, 255);
-              font-size: 15px;
-              font-family:cursive;
-              position: sticky;
-          }
-          article
-          {
-              background-color: rgb(0, 255, 128);
-              font-size: 18px;
-              font-family:Arial;
-              position: sticky;
-          }
-          section
-          {
-              
-              background-color: rgb(170, 255, 0);
-              font-size: 20px;
-              font-family:Arial;
-              position: sticky;
-          }
-          footer
-          {
-                   
-              background-color: rgb(170, 255, 0);
-              font-size: 60px;
-              font-family:Arial;
-              position: sticky;
-          }
-          h1
-          {
-            
-          }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 179, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  
+}
